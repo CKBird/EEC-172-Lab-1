@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.13.0.0
+Copyright (C) 2014 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Chris Bird, OSS Cube Mods, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.13.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.13.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\Users\Chris\Desktop\lab2Ticks\hello.uvproj
+Project File Date:  01/22/2015
+
+<h2>Output:</h2>
+Rebuild target 'hello'
+compiling hello.c...
+hello.c(241): warning:  #111-D: statement is unreachable
+  return 0;
+hello.c: 1 warning, 0 errors
+assembling startup_rvmdk.S...
+compiling uartstdio.c...
+linking...
+Program Size: Code=3516 RO-data=80 RW-data=20 ZI-data=852  
+After Build - User command #1: fromelf --bin --output .\rvmdk\hello.bin .\rvmdk\hello.axf
+".\rvmdk\hello.axf" - 0 Error(s), 1 Warning(s).
+</pre>
+</body>
+</html>

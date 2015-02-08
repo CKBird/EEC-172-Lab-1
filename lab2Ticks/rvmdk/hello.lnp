@@ -1,0 +1,10 @@
+--cpu Cortex-M4.fp
+".\rvmdk\hello.o"
+".\rvmdk\startup_rvmdk.o"
+".\rvmdk\uartstdio.o"
+"C:\ti\TivaWare_C_Series-1.1\driverlib\rvmdk\driverlib.lib"
+--library_type=microlib --strict --scatter "hello.sct"
+
+--entry Reset_Handler --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\rvmdk\hello.map" -o .\rvmdk\hello.axf

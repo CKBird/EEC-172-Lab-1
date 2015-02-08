@@ -1,0 +1,15 @@
+.\rvmdk\uartstdio.o: C:\ti\TivaWare_C_Series-1.1\utils\uartstdio.c
+.\rvmdk\uartstdio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\rvmdk\uartstdio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\rvmdk\uartstdio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\rvmdk\uartstdio.o: C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h
+.\rvmdk\uartstdio.o: C:\ti\TivaWare_C_Series-1.1\inc/hw_memmap.h
+.\rvmdk\uartstdio.o: C:\ti\TivaWare_C_Series-1.1\inc/hw_types.h
+.\rvmdk\uartstdio.o: C:\ti\TivaWare_C_Series-1.1\inc/hw_uart.h
+.\rvmdk\uartstdio.o: C:\ti\TivaWare_C_Series-1.1\driverlib/debug.h
+.\rvmdk\uartstdio.o: C:\ti\TivaWare_C_Series-1.1\driverlib/interrupt.h
+.\rvmdk\uartstdio.o: C:\ti\TivaWare_C_Series-1.1\driverlib/rom.h
+.\rvmdk\uartstdio.o: C:\ti\TivaWare_C_Series-1.1\driverlib/rom_map.h
+.\rvmdk\uartstdio.o: C:\ti\TivaWare_C_Series-1.1\driverlib/sysctl.h
+.\rvmdk\uartstdio.o: C:\ti\TivaWare_C_Series-1.1\driverlib/uart.h
+.\rvmdk\uartstdio.o: C:\ti\TivaWare_C_Series-1.1\utils/uartstdio.h
